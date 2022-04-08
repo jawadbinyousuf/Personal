@@ -193,6 +193,55 @@ body {
   font-size: 0.8rem;
 }
 
+.contact {
+  background: #4a7694;
+}
+
+.contact .heading {
+  text-align: center;
+  padding: 1.8rem;
+  font-size: 2rem;
+}
+.contact .row {
+  display: grid;
+  align-items: center;
+}
+.contact .row form {
+  padding: 3rem;
+}
+.contact .row .social-media {
+  text-align: center;
+}
+.contact .row .social-media h1 {
+  font-size: 2.6rem;
+}
+.contact .row .social-media .fa-brands {
+  font-size: 1.6rem;
+  padding: 2rem;
+  color: #ffffff;
+  border: 0.1rem solid #353b3a;
+  background-color: #20a898;
+  border-radius: 50%;
+}
+.contact .row .social-media .fa-github:hover {
+  color: #000000;
+}
+.contact .row .social-media .fa-linkedin:hover {
+  color: #0e76a8;
+}
+.contact .row .social-media .fa-behance:hover {
+  color: #053eff;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 1rem;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 @media screen and (max-width: 991px) {
   html {
     font-size: 85%;
@@ -224,6 +273,14 @@ body {
   }
   .services .box-container {
     gap: 3rem;
+  }
+  .contact .row {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .row .social-media {
+    text-align: center;
   }
 }
 
