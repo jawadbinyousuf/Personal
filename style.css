@@ -263,7 +263,6 @@ body {
 
   .about .row {
     display: grid;
-    padding: 1.2rem;
   }
   .about .image img {
     border-radius: 50%;
