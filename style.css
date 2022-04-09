@@ -27,7 +27,8 @@ html::-webkit-scrollbar-track {
 body {
   background: #cae0dd;
 }
-
+.icon {
+}
 .btn {
   display: inline-block;
   padding: 0.4rem 0.4rem;
@@ -232,7 +233,9 @@ body {
 .contact .row .social-media .fa-behance:hover {
   color: #053eff;
 }
-
+.contact .row .social-media .fa-firefox-browser:hover {
+  color: #6b574e;
+}
 input {
   width: 100%;
   padding: 0.5rem;
@@ -308,7 +311,7 @@ input {
     background-size: cover;
   }
   .icon {
-    display: block;
+    display: inline-block;
   }
   #bar-btn {
     color: #000000;
